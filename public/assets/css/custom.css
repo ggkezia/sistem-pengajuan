@@ -1,0 +1,11 @@
+/* Mengatur posisi pesan kesalahan di atas field keyword */
+.text-danger {
+    display: block;
+    margin-bottom: .2rem; /* Jarak antara pesan kesalahan dan field keyword */
+}
+
+/* Merubah warna background field menjadi merah saat ada pesan kesalahan */
+.is-invalid {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
